@@ -34,7 +34,7 @@ document.getElementById("openRPS").addEventListener('click',()=>
 
 function openPoing() {
 	window.open(
-		"../HTML/game.html",
+		"game.html",
 		"Poing Game",
 		"width=1300, height=600, top=100, left=100, resizable=1, menubar=yes",
 		true

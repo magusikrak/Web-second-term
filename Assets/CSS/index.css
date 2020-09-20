@@ -196,7 +196,7 @@ footer {
   /* setting the width to 260px, height to 50px, color to f5f6fa, border-radius to 20px */
   width: 260px;
   height: 50px;
-  color: #f5f6fa;
+  color: #365ae9;
   border-radius: 20px;
   /* height: ; */
   /* width: auto; */
@@ -210,6 +210,7 @@ footer {
 }
 .textPopMessage p {
   /* setting the font-size to 40px */
+  color: #365ae9;
   font-size: 40px;
 }
 .opnBtn {
