@@ -1,0 +1,194 @@
+<!-- Specifyies what type of  document is to be expected to the browser-->
+<!DOCTYPE html>
+<!-- declaration of language of document -->
+<html lang="en-us">
+<!-- starting of head tag -->
+
+<head>
+    <!--specifies the character encoding in html  -->
+    <meta charset="UTF-8" />
+    <!-- Title of the website-->
+    <title>Contact ME</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <!-- My CSS -->
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+        rel="stylesheet" />
+
+    <!-- gives browser instructions about the controlling of the page's dimensions and scaling  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- linking HTMl file with CSS -->
+    <link rel="stylesheet" href="../CSS/contact.css" type="text/css" />
+
+    <!--linking font awesome kit code-->
+
+    <script src="https://kit.fontawesome.com/0f25f5010f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap" rel="stylesheet">
+    <!-- ending of head tag -->
+</head>
+<!-- start of body tag -->
+
+<body >
+    <!-- start of header -->
+    <header id="header">
+        <!-- declares navigation bar -->
+        <nav class="container navigation pt-3">
+            <!-- declares div with class row -->
+            <div class="row">
+                 <!-- declaration of div -->
+                <div class="col-6 d-flex justify-content-start align-items-center">
+                    <!-- declares a div -->
+                    <div class="logo">
+                        <!-- adds a icon -->
+                        <i class="fas fa-2x fa-jedi text-success pb-3"></i>
+                        <!-- declares an anchor tag -->
+                    <a href="../../index.html" class="d-inline pl-2 text-warning">LANDING PAGE</a>
+                    <!-- ends the div  -->
+                    </div>
+                </div>
+                <!-- declares a div -->
+                <div class="col-6 pt-2">
+                    <!-- declares a div -->
+                    <div class="row text-center p-0 d-flex justify-content-end align-items-center navbur">
+                        <!-- declares a div -->
+                        <div class="col-3">
+                            <a href="cv.html" class="text-white navigation-link nav1">CV</a>
+                            <!-- ends the div -->
+                        </div>
+                        <!-- declares a div -->
+                        <div class="col-3 nav1">
+                            <a href="portfolio.html" class="text-white navigation-link ">Portfolio</a>
+                            <!-- ends the div -->
+                        </div>
+                        <!-- declares a div -->
+                        <div class="col-3 nav1">
+                            <a href="contact.html" class="text-white navigation-link ">Contact</a>
+                            <!-- ends the div -->
+                        </div>
+                        <!-- declares a div -->
+                        <div class="col-3 nav1">
+                            <a href="../../index.html" class="text-white navigation-link">LANDING PAGE</a>
+                            <!-- ends the div -->
+                        </div>
+                        <!-- ends the div -->
+                    </div>
+                    <!-- ends the div -->
+                </div>
+                <!-- ends the div -->
+            </div>
+            <!-- ends the nav bar -->
+        </nav>
+        <!-- ends the header -->
+    </header>
+    <!-- creation of class "cont" which holds the container -->
+    <div class="cont" >
+        <!-- header which says "Contact Me" -->
+        <div id="frm">
+        <h1 style="color: blueviolet;">Contact Me</h1>
+        <!-- starting of form  -->
+        <form name="form" class="form" id="form">
+            <!-- text box for name -->
+            <input type="text" class="cft" placeholder="Al E. Gater" id="name" name="Name"/>
+            <p class="error_message" id="errorNamePop">*The name is incorrect</p>
+            <!-- text box for email address -->
+            <input type="email" class="cft" placeholder="Stu@Pitt.com" id="email"/>
+            <p class="error_message" id="errorEmailPop">*The Email is incorrect</p>
+
+            <!-- text box for phone number -->
+            <input type="text" class="cft" placeholder="Phone Number" id="phone"/>
+            <p class="error_message" id="errorPhonePop">*The Phone number is incorrect</p>
+            <!-- text area for Message -->
+            <textarea class="cft" placeholder="Message (under 200 characters)" id="message"></textarea>
+            <p class="error_message" id="errorMessagePop">*The Message Is too long or too short</p>
+            <!-- submit button to submit the form -->
+
+            <input type="button" class="form-send" value="Send" id="send" />
+            <!-- ending of form  -->
+        </form>
+        </div>
+        <div class="feedback" id="feedback">
+                <div id="feedbackText" style="color:#ecf0f1">Please check the facts before sending.<br> Name:<p id="feedbackName" style="background-color:#95a5a6; width:fit-content;"></p>Email:<p id="feedbackEmail" style="background-color:#95a5a6; width:fit-content;"></p> Your message <p id="feedbackMessage" style="background-color: #95a5a6; width:fit-content;"></p> </div>
+                <button class="btn btn-outline-primary" id="feedbackSendButton" >SEND</button> 
+                <button class="btn btn-outline-warning" id="feedbackEditButton" >Edit</button></div>
+
+        </div>
+        <!-- ending of division -->
+
+    <!-- starting of footer -->
+    <footer id="footer">
+        <!-- declares a main div tag for footer -->
+        <div class="main-content">
+            <!-- declares a div tag -->
+            <div class="left box">
+                <!-- declares a content div -->
+                <div class="content">
+                    <!-- declares a div for social links -->
+                    <div class="social">
+                        <!-- links to facebook -->
+                        <a href="https://facebook.com/"><span class="fab fa-facebook-f"></span></a>
+                        <!-- link to linkedin -->
+                        <a href="https://www.linkedin.com/in/sugam-karki-4877261a3/"><span
+                                class="fab fa-linkedin"></span></a>
+                            <!-- link to instagram -->
+                                <a href="https://instagram.com/"><span class="fab fa-instagram"></span></a>
+                                <!-- links to my github account -->
+                        <a href="https://github.com/magusikrak"><span class="fab fa-github-square"></span></a>
+                        <!-- links to my twitter -->
+                        <a href="https://twitter.com"><span class="fab fa-twitter-square"></span></a>
+                        <!-- links to freecodecamp -->
+                        <a href="https://freecodecamp.com"><span class="fab fa-free-code-camp"></span></a>
+                            <!-- ends the div -->
+                            <!-- links to codepen -->
+                        <a href="https://codepen.io/magusikrak"><span class="fab fa-codepen"></span></a>
+                  
+                    </div>
+
+                  <!--declares a button for pop up box  -->
+    <button class="opnBtn" id="openForm">
+        <!-- adds icon -->
+        <i class="fas fa-2x fa-envelope"></i>
+    </button>
+    <!--main div for pop up  -->
+    <div class="popupDiv" id="myForm">
+        <!-- adds a form -->
+        <form action="/action_page.php" class="popupForm">
+            <!-- adds a paragraph tag -->
+            <p class="textPopMessage">Message Box</p>
+            <!-- inputs email -->
+            <input type="email" class="popEmail"   placeholder="Your email">
+            <!-- inputs phone number -->
+            <input type="number" class="popNumber" placeholder="your phone number">
+            <!-- inputs the message -->
+            <textarea placeholder="Please Enter your Message" name="message"  ></textarea>
+            <!-- submits the form -->
+            <input type="submit" class="btnSubmit" value="Submit" >
+            <!-- closes the form -->
+            <button type="button" class="btnCancel" id="closeForm">Close Form</button>
+                <!-- ending of form tag -->
+        </form>
+        <!-- ending of the division -->
+    </div>
+     <!-- ending of the division -->
+                </div>
+                 <!-- ending of the division -->
+            </div>
+             <!-- ending of the division -->
+        </div>
+         <!-- ending of the footer -->
+    </footer>
+    <!-- links the javascript to html -->
+    <script src="../JAVASCRIPT/contact.js"></script>
+
+    <!-- ending of body  -->
+
+</body>
+<!-- ending of html  -->
+
+</html>
