@@ -15,6 +15,7 @@ var ballVSpeed = 10;
 var ballHSpeed = 10;
 var score = 0,
 	lives = 5;
+
 function first() {
 	board();
 	batLeft();
@@ -113,6 +114,7 @@ function batRight() {
 	batMovement();
 	interval = setInterval(batRightCheckMovement, 1);
 }
+
 function batRightCheckMovement() {
 	if (ballRow - 100 > batHeightRight) {
 		clearInterval(interval);

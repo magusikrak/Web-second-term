@@ -10,12 +10,7 @@ document.getElementById("closeForm").addEventListener("click", () => {
     document.getElementById("myForm").style.display = "none";
     // popFormOpenClose.close();
 });
-document.getElementById("closeForm").addEventListener("click", () => {
-  // creates an instance of the imported class
-  let popFormOpenClose = new PopFormOpenClose();
-  // calls the function of the class	
-  popFormOpenClose.close();
-});
+
 document.getElementById("openPoing").addEventListener('click',()=>
 {
 	// console.log("object")
