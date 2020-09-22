@@ -145,6 +145,18 @@ footer {
 	/* height: ; */
 	/* width: auto; */
 }
+.title
+{
+	font-size: 50px;
+	color: #c8d6e5;
+	text-align: center;
+	border: 2px #ee5253 solid;
+	margin:30px;
+	font-family: 'Kufam', cursive;
+}
+.title:hover{
+	color: #8395a7;
+}
 .popEmail:focus,
 .popNumber:focus {
 	/* setting the background-color to 273c75*/
