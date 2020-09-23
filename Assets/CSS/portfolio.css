@@ -58,11 +58,6 @@ footer {
 	background: #111;
 }
 
-.main-content {
-	/* display: inline-block; */
-	/* setting the float to center
-	float: center; */
-}
 
 .main-content .box {
 	/* setting the flex-basis to 50%, padding to 5px 10px, float to 
@@ -77,7 +72,6 @@ footer {
     position: relative;
   } */
 .box .content:before {
-	/* position: absolute; */
 	/* setting the content to "", height to 2px, width to 100% */
 	content: "";
 	/* top: -10px; */
@@ -87,7 +81,6 @@ footer {
 }
 
 .box .content:after {
-	/* position: absolute; */
 	 /* setting the content to "", height to 2px, width to 15%, top to 
 	 -10px */
 	content: "";

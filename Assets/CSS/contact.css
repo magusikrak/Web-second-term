@@ -51,9 +51,6 @@ header {
   transition: 0.5s ease;
 }
 
-#name{
-  /* border: 1px solid red; */
-}
 /* ANCHOR end of header  */
 
 /* --------------------------HEADER---------------------------------------- */
@@ -220,11 +217,6 @@ footer {
   background: #111;
 }
 
-.main-content {
-  /* setting the float to center */
-  /* float: center; */
-  /* float: ; */
-}
 
 .main-content .box {
   /* setting the flex-basis to 50%, padding to 5px 10px, float to center */
