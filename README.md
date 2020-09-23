@@ -8,29 +8,29 @@ All the HTML and CSS files have been properly validated using the pre-approved v
 
 >## ___HTML___
 >### **Index.html**
-><BR> ![index.html](ImagesForReadme/indexHTMLValidation.png)
+><BR> ![index.html](Assets/Images/ImagesForReadme/indexHTMLValidation.png)
 >### **Cv.html**
->![cv.html](ImagesForReadme/cvHTMLValidation.png)
+>![cv.html](Assets/Images/ImagesForReadme/cvHTMLValidation.png)
 >### **Portfolio.html**
->![portfolio.html](ImagesForReadme/portfolioHTMLValidation.png)
+>![portfolio.html](Assets/Images/ImagesForReadme/portfolioHTMLValidation.png)
 >### **Contact.html**
->![contact.html](ImagesForReadme/contactHTMLValidation.png)
+>![contact.html](Assets/Images/ImagesForReadme/contactHTMLValidation.png)
 
 >## CSS
 >### **Index.css**
-><BR> ![index.css](ImagesForReadme/indexCSSValidation.png)
+><BR> ![index.css](Assets/Images/ImagesForReadme/indexCSSValidation.png)
 >### **Cv.css**
->![cv.css](ImagesForReadme/cvCSSValidation.png)
+>![cv.css](Assets/Images/ImagesForReadme/cvCSSValidation.png)
 >### **Portfolio.css**
->![portfolio.css](ImagesForReadme/portfolioCSSValidation.png)
+>![portfolio.css](Assets/Images/ImagesForReadme/portfolioCSSValidation.png)
 >### **Contact.css**
->![contact.css](ImagesForReadme/contactCSSValidation.png)
+>![contact.css](Assets/Images/ImagesForReadme/contactCSSValidation.png)
 -----
 ---
 ---
 ## ___GitHub Version Control Skill___
 > ### Heatmap of my Github Profile
->![github Screenshot](ImagesForReadme/github.png)
+>![github Screenshot](Assets/Images/ImagesForReadme/github.png)
 ---
 ---
 ---
